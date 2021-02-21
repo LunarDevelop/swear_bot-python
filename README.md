@@ -18,6 +18,6 @@ Pre requiments:
 How to use this bot:
 
 	Download the bot as a Zip
-	Edit the .env with notepad or another text editor
-	Put a bot token in where it say to put it save it.
+	Edit the `token.0` file with notepad or another text editor
+	Put the bot token into there.
 	Run the main.py file
