@@ -5,8 +5,8 @@ import os
 from dotenv import load_dotenv
 import requests
 
-load_dotenv()
-token = os.getenv("TOKEN")
+with open("./token.0", "r", encoding="utf-8") as tf:
+    TOKEN = tf.read()
 
 #sets our bots target name
 client = commands.Bot(command_prefix= '!')
@@ -52,4 +52,4 @@ async def on_message(message):
         await message.channel.send(response.text)
 
 #Runs the entire bot on the token below
-client.run(token)
+client.run(TOKEN)
