@@ -2,9 +2,8 @@
 
 A simple bot which sends an insults every time a user swears.
 
-Offical bot invite: https://discord.com/api/oauth2/authorize?client_id=812837367601168394&permissions=68608&scope=bot
-
-This bot is based of a bot made by someone else, who coded it in Javascript. I was requested to code it in python which I did.
+This bot is based of a bot made by [TasosY2K](https://github.com/TasosY2K/SwearBot), who coded it in Javascript.
+Someone made a request to have this bot coded in Python.
 
 -----------
 Pre requiments:
